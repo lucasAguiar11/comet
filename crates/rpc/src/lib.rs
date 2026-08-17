@@ -111,6 +111,7 @@ pub mod methods {
     pub const WATCH_CHECKOUT_DIFFS: &str = "WatchCheckoutDiffs";
     pub const GET_CHECKOUT_DIFF: &str = "GetCheckoutDiff";
     pub const GET_CHECKOUT_FILE_DIFF_TEXT: &str = "GetCheckoutFileDiffText";
+    pub const READ_WORKSPACE_FILE: &str = "ReadWorkspaceFile";
     // Agent accounts (ControlRpc, relay-forwardable — CLI logins are per-device).
     pub const LIST_AGENT_ACCOUNTS: &str = "ListAgentAccounts";
     pub const ACTIVATE_AGENT_ACCOUNT: &str = "ActivateAgentAccount";
